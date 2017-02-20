@@ -1,8 +1,11 @@
 <h2>
-  {{title}}
+  Courses
 </h2>
+<h5>
+  {{title}}
+</h5>
 <ul>
-  <li ngFor="let course of courses">
+  <li *ngFor="let course of courses">
     {{ course }}
   </li>
 </ul>
