@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { AuthorService } from './author.service';
 
 @Component({
-  selector: 'author-list',
+  selector: 'app-author',
   templateUrl: './author.component.html',
   providers: [AuthorService]
 })
